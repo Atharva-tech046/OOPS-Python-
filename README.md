@@ -8,17 +8,15 @@
 This repository serves as a comprehensive guide and code collection for understanding Object-Oriented Programming (OOP) in Python. It contains practical examples, scripts, and explanations of core OOP concepts designed to help developers write clean, modular, and scalable code.
 
 ## Table of Contents
-- [Core Concepts Guide](#core-concepts-guide)
-  - [1. Classes and Objects](#1-classes-and-objects)
-  - [2. Encapsulation](#2-encapsulation)
-  - [3. Inheritance](#3-inheritance)
-  - [4. Polymorphism](#4-polymorphism)
-  - [5. Abstraction](#5-abstraction)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
+| 📌 Section | 📖 Sub-topics / Details |
+| :--- | :--- |
+| **[Core Concepts Guide](#core-concepts-guide)** | • [1. Classes and Objects](#1-classes-and-objects)<br>• [2. Encapsulation](#2-encapsulation)<br>• [3. Inheritance](#3-inheritance)<br>• [4. Polymorphism](#4-polymorphism)<br>• [5. Abstraction](#5-abstraction) |
+| **[Repository Structure](#repository-structure)** | Overview of the folder layout and script organization |
+| **[Getting Started](#getting-started)** | Prerequisites and repository installation steps |
+| **[Usage](#usage)** | Command-line execution examples |
+| **[Contributing](#contributing)** | Guidelines for submitting issues and pull requests |
+| **[License](#license)** | MIT License information |
 
 ---
 
