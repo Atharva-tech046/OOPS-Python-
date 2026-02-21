@@ -11,7 +11,8 @@ This repository serves as a comprehensive guide and code collection for understa
 
 | 📌 Section | 📖 Sub-topics / Details |
 | :--- | :--- |
-| **[Core Concepts Guide](#core-concepts-guide)** | • [1. Classes and Objects](#1-classes-and-objects)<br>• [2. Encapsulation](#2-encapsulation)<br>• [3. Inheritance](#3-inheritance)<br>• [4. Polymorphism](#4-polymorphism)<br>• [5. Abstraction](#5-abstraction) |
+| **[The Foundation](#the-foundation-classes-and-objects)** | • [Classes and Objects](#classes-and-objects) |
+| **[The Four Pillars of OOP](#the-four-pillars-of-oop)** | • [1. Encapsulation](#1-encapsulation)<br>• [2. Inheritance](#2-inheritance)<br>• [3. Polymorphism](#3-polymorphism)<br>• [4. Abstraction](#4-abstraction) |
 | **[Repository Structure](#repository-structure)** | Overview of the folder layout and script organization |
 | **[Getting Started](#getting-started)** | Prerequisites and repository installation steps |
 | **[Usage](#usage)** | Command-line execution examples |
@@ -20,12 +21,9 @@ This repository serves as a comprehensive guide and code collection for understa
 
 ---
 
-## Core Concepts Guide
+## The Foundation: Classes and Objects
 
-Below is a quick reference guide for the four main pillars of OOP in Python.
-
-### 1. Classes and Objects
-A **Class** is a blueprint for creating objects. An **Object** is an instance of a class. The `__init__` method is the constructor used to initialize the object's attributes.
+Before diving into the pillars, it is essential to understand the basics. A **Class** is a blueprint for creating objects. An **Object** is an instance of a class. The `__init__` method is the constructor used to initialize the object's attributes.
 
 ```python
 class Car:
