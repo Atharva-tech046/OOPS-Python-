@@ -8,41 +8,36 @@
 This repository serves as a comprehensive guide and code collection for understanding Object-Oriented Programming (OOP) in Python. It contains practical examples, scripts, and explanations of core OOP concepts designed to help developers write clean, modular, and scalable code.
 
 ## Table of Contents
-- [Core Concepts Covered](#core-concepts-covered)
+- [Core Concepts Guide](#core-concepts-guide)
+  - [1. Classes and Objects](#1-classes-and-objects)
+  - [2. Encapsulation](#2-encapsulation)
+  - [3. Inheritance](#3-inheritance)
+  - [4. Polymorphism](#4-polymorphism)
+  - [5. Abstraction](#5-abstraction)
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Core Concepts Covered
+---
 
-This repository includes practical implementations of the four main pillars of OOP, along with advanced Python-specific features:
+## Core Concepts Guide
 
-1. **Classes and Objects:** The building blocks of OOP, including the `__init__` constructor and instance/class variables.
-2. **Encapsulation:** Restricting access to methods and variables to prevent data modification using private (`__`) and protected (`_`) access modifiers.
-3. **Inheritance:** Creating new classes from existing ones (Single, Multiple, Multilevel, and Hierarchical inheritance) to promote code reusability.
-4. **Polymorphism:** Using a single type entity (method, operator, or object) to represent different types in different scenarios (Method Overriding and Overloading concepts).
-5. **Abstraction:** Hiding complex implementation details and showing only the essential features using Python's `abc` module.
-6. **Advanced Topics:**
-   * Magic / Dunder Methods (`__str__`, `__repr__`, `__len__`, etc.)
-   * Class Methods (`@classmethod`) vs. Static Methods (`@staticmethod`)
-   * Property Decorators (`@property`, `@setter`)
+Below is a quick reference guide for the four main pillars of OOP in Python.
 
-## Repository Structure
+### 1. Classes and Objects
+A **Class** is a blueprint for creating objects. An **Object** is an instance of a class. The `__init__` method is the constructor used to initialize the object's attributes.
 
-```text
-├── 01_classes_and_objects/
-│   └── basics.py
-├── 02_encapsulation/
-│   └── encapsulation.py
-├── 03_inheritance/
-│   └── inheritance_types.py
-├── 04_polymorphism/
-│   └── polymorphism.py
-├── 05_abstraction/
-│   └── abstract_classes.py
-├── 06_advanced_oop/
-│   ├── dunder_methods.py
-│   └── decorators.py
-└── README.md
+```python
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+    def display_info(self):
+        print(f"Car: {self.brand} {self.model}")
+
+# Creating an object
+my_car = Car("Toyota", "Corolla")
+my_car.display_info()
