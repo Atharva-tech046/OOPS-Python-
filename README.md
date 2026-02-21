@@ -4,18 +4,18 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
-## 📖 Overview
+## Overview
 This repository serves as a comprehensive guide and code collection for understanding Object-Oriented Programming (OOP) in Python. It contains practical examples, scripts, and explanations of core OOP concepts designed to help developers write clean, modular, and scalable code.
 
-## 📑 Table of Contents
-- [Core Concepts Covered](#-core-concepts-covered)
-- [Repository Structure](#-repository-structure)
-- [Getting Started](#-getting-started)
-- [Usage](#-usage)
-- [Contributing](#-contributing)
-- [License](#-license)
+## Table of Contents
+- [Core Concepts Covered](#core-concepts-covered)
+- [Repository Structure](#repository-structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## 🧠 Core Concepts Covered
+## Core Concepts Covered
 
 This repository includes practical implementations of the four main pillars of OOP, along with advanced Python-specific features:
 
@@ -29,7 +29,7 @@ This repository includes practical implementations of the four main pillars of O
    * Class Methods (`@classmethod`) vs. Static Methods (`@staticmethod`)
    * Property Decorators (`@property`, `@setter`)
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── 01_classes_and_objects/
